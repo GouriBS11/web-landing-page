@@ -1,0 +1,151 @@
+  body {
+    background-image: url("./images/backcover.svg");
+     overflow: hidden;  
+    background-size: cover;
+    width: 100%;
+}   
+
+
+img[src="./images/backcover.svg"]{
+    position: relative;
+    top: -20px;
+    left: 600px;
+    width: 720px;
+    /* padding: 100px; */
+    /* margin-left: 200px; */
+    /* margin-right: 300px; */
+}
+
+
+img[src="./images/logo.svg"]{
+    position: relative;
+    top: -600px;
+    left: 20px;
+}
+
+nav{
+    position: relative;
+    top: -110px;
+
+}
+.nav-items{
+    color: #7A69AC;
+    font-family: Roboto;
+    font-size: 180%;
+    position: relative;
+    top: -680px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 500px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: #000;
+}
+
+.signin-btn{
+    color: #fff;
+    position: relative;
+    top: -750px;
+    float: right;
+    margin-right: 50px;
+    height: 40px;
+    width: 120px;
+    border-radius: 1.3rem;
+    border: transparent;
+    background-image: linear-gradient(to right,#9d60d0 51%, #FD297A 100%);
+    
+}
+
+
+.left-section{
+    position: relative;
+    top: -150px;
+}
+h1{
+    position: relative;
+    top: -680px;
+    left: 10px;
+    font-family: Roboto;
+    font-size: 500%;
+    color: #7A69AC;
+}
+h4{
+    position: relative;
+    top: -720px;
+    left: 20px;
+    color: #696969;
+    margin-left: 10px;
+    margin-right: 1000px;
+    
+}
+.learn-more-btn{
+    position: relative;
+    top: -700px;
+    left: 100px;
+    color: #fff;
+    border-radius: 1.3rem;
+    border: transparent;
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(to right,#9d60d0 51%, #FD297A 100%);
+}
+
+
+img[src="./images/intro-img.svg"]{
+    position: relative;
+    top: -1160px;
+    left: 400px;
+    width: 580px;
+}
+
+img[src="./images/vector.svg"]{
+   
+    position: relative;
+    top: -1200px;
+    left: 500px;
+}
+
+img[src="./images/vector-dot.svg"]{
+  
+   position: relative;
+   top: -1280px;
+   left: 450px;
+}
+
+@media screen and (max-width: 800px) {
+   
+    .nav-item{
+        display: none;
+    }
+    img[src="./images/logo.svg"]{
+        width: 60px;
+    } 
+    h1{
+        width: 50px;
+        height: 20px;
+        margin-top: 120px;
+    }
+    h4{
+        margin-top: 220px;
+        height: 50px;
+        width: 150px;
+    }
+    .signin-btn{
+       
+        margin-left: 150px;
+        color: #fff;
+        border-radius: 1.3rem;
+        border: transparent;
+        background-image: linear-gradient(to right,#9d60d0 51%, #FD297A 100%);
+    }
+    
+   .learn-more-btn{
+       margin-top: 80px;
+       margin-left: -80px;
+    }
+
+}
